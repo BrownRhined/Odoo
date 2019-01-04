@@ -38,43 +38,43 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_year_id
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_year
 msgid "Calendar Year"
-msgstr "Año del calendario"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.ui.view,arch_db:hr_public_holidays.public_holidays_next_year_wizard_view
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "取消"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_country_id
 msgid "Country"
-msgstr "País"
+msgstr "國家"
 
 #. module: hr_public_holidays
 #: model:ir.ui.view,arch_db:hr_public_holidays.public_holidays_next_year_wizard_view
 msgid "Create"
-msgstr ""
+msgstr "建立"
 
 #. module: hr_public_holidays
 #: model:ir.actions.act_window,name:hr_public_holidays.action_create_next_year_public_holidays
 #: model:ir.ui.menu,name:hr_public_holidays.menu_create_next_year_public_holidays
 #: model:ir.ui.view,arch_db:hr_public_holidays.public_holidays_next_year_wizard_view
 msgid "Create Next Year Public Holidays"
-msgstr ""
+msgstr "建立明年法定假日"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_create_uid
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_create_uid
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_create_uid
 msgid "Created by"
-msgstr "Creado por"
+msgstr "建立者"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_create_date
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_create_date
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_create_date
 msgid "Created on"
-msgstr "Creado el"
+msgstr "建立於"
 
 #. module: hr_public_holidays
 #: model:ir.model,name:hr_public_holidays.model_public_holidays_next_year_wizard
@@ -84,12 +84,12 @@ msgstr ""
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_date
 msgid "Date"
-msgstr "Fecha"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_variable
 msgid "Date may change"
-msgstr "La fecha puede cambiar"
+msgstr ""
 
 #. module: hr_public_holidays
 #: code:addons/hr_public_holidays/models/hr_public_holidays_line.py:45
@@ -98,8 +98,8 @@ msgid ""
 "Dates of holidays should be the same year as the calendar year they are "
 "being assigned to"
 msgstr ""
-"Las fechas de las vacaciones deberían ser el mismo año que el año de "
-"calendario al que están siendo asignadas."
+""
+""
 
 #. module: hr_public_holidays
 #: model:ir.ui.view,arch_db:hr_public_holidays.public_holidays_next_year_wizard_view
@@ -110,12 +110,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_display_name
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_display_name
 msgid "Display Name"
-msgstr "Mostrar nombre"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_ids
 msgid "Holiday Dates"
-msgstr "Fechas de la vacación"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_id
@@ -129,27 +129,27 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line___last_update
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard___last_update
 msgid "Last Modified on"
-msgstr "Última modificación el"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_write_uid
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_write_uid
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_write_uid
 msgid "Last Updated by"
-msgstr "Última actualización por"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_write_date
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_write_date
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_write_date
 msgid "Last Updated on"
-msgstr "Última actualización el"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_display_name
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_name
 msgid "Name"
-msgstr "Nombre"
+msgstr ""
 
 #. module: hr_public_holidays
 #: code:addons/hr_public_holidays/wizards/public_holidays_next_year_wizard.py:41
@@ -172,17 +172,17 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_public_holidays.view_public_holidays_form
 #: model:ir.ui.view,arch_db:hr_public_holidays.view_public_holidays_tree
 msgid "Public Holidays"
-msgstr "Vacaciones públicas"
+msgstr "法定假日"
 
 #. module: hr_public_holidays
 #: model:ir.model,name:hr_public_holidays.model_hr_holidays_public_line
 msgid "Public Holidays Lines"
-msgstr "Líneas de vacaciones públicas"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_state_ids
 msgid "Related States"
-msgstr "Provincias relacionadas"
+msgstr ""
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,help:hr_public_holidays.field_public_holidays_next_year_wizard_template_ids
@@ -242,20 +242,20 @@ msgid ""
 "You can't create duplicate public holiday per date %s and one of the country "
 "states."
 msgstr ""
-"No puede crear vacaciones públicas duplicadas para la fecha %s y una de las "
-"provincias."
+""
+""
 
 #. module: hr_public_holidays
 #: code:addons/hr_public_holidays/models/hr_public_holidays_line.py:64
 #, python-format
 msgid "You can't create duplicate public holiday per date %s."
-msgstr "No puede crear vacaciones públicas duplicadas para la fecha %s."
+msgstr ""
 
 #. module: hr_public_holidays
 #: code:addons/hr_public_holidays/models/hr_public_holidays.py:53
 #, python-format
 msgid "You can't create duplicate public holiday per year and/or country"
-msgstr "No puede crear vacaciones públicas duplicadas para el año y/o país."
+msgstr ""
 
 #. module: hr_public_holidays
 #: code:addons/hr_public_holidays/wizards/public_holidays_next_year_wizard.py:79
