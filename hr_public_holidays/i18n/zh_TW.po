@@ -33,12 +33,19 @@ msgid ""
 "button \n"
 "                        \"Create\"."
 msgstr ""
+"By default, the most recent public holidays \n"
+"                        for each country are used as template to create  \n"
+"                        public holidays for the year following the "
+"templates.\n"
+"                        <br/><br/>\n"
+"                        通常，您不需要在可選字段中輸入任何內容\n"
+"                        只需要單擊\n\"建立\"\n按鈕即可。"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_year_id
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_year
 msgid "Calendar Year"
-msgstr ""
+msgstr "公曆年"
 
 #. module: hr_public_holidays
 #: model:ir.ui.view,arch_db:hr_public_holidays.public_holidays_next_year_wizard_view
@@ -79,17 +86,17 @@ msgstr "建立於"
 #. module: hr_public_holidays
 #: model:ir.model,name:hr_public_holidays.model_public_holidays_next_year_wizard
 msgid "Creates public holidays from existing ones"
-msgstr ""
+msgstr "從現有假日建立法定假日"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_date
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_variable
 msgid "Date may change"
-msgstr ""
+msgstr "日期可能會更改"
 
 #. module: hr_public_holidays
 #: code:addons/hr_public_holidays/models/hr_public_holidays_line.py:45
@@ -98,24 +105,24 @@ msgid ""
 "Dates of holidays should be the same year as the calendar year they are "
 "being assigned to"
 msgstr ""
-""
-""
+"假期日期應與日曆年度相同"
+"被分配到"
 
 #. module: hr_public_holidays
 #: model:ir.ui.view,arch_db:hr_public_holidays.public_holidays_next_year_wizard_view
 msgid "Defaults"
-msgstr ""
+msgstr "預設"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_display_name
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "顯示名稱"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_ids
 msgid "Holiday Dates"
-msgstr ""
+msgstr "假期日期"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_id
@@ -129,27 +136,27 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line___last_update
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard___last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "上次修改時間"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_write_uid
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_write_uid
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "最後更新者"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_write_date
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_write_date
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "最後更新"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_display_name
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_name
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #. module: hr_public_holidays
 #: code:addons/hr_public_holidays/wizards/public_holidays_next_year_wizard.py:41
@@ -162,7 +169,7 @@ msgstr ""
 #. module: hr_public_holidays
 #: model:ir.ui.view,arch_db:hr_public_holidays.public_holidays_next_year_wizard_view
 msgid "Optional"
-msgstr ""
+msgstr "選項"
 
 #. module: hr_public_holidays
 #: model:ir.actions.act_window,name:hr_public_holidays.open_public_holidays_view
@@ -182,7 +189,7 @@ msgstr ""
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_hr_holidays_public_line_state_ids
 msgid "Related States"
-msgstr ""
+msgstr "國家/地區"
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,help:hr_public_holidays.field_public_holidays_next_year_wizard_template_ids
@@ -196,7 +203,7 @@ msgstr ""
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_template_ids
 msgid "Templates"
-msgstr ""
+msgstr "模板"
 
 #. module: hr_public_holidays
 #: model:ir.ui.view,arch_db:hr_public_holidays.public_holidays_next_year_wizard_view
@@ -222,6 +229,10 @@ msgid ""
 "                        only the templates from 2015 will be taken into \n"
 "                        account)."
 msgstr ""
+"使用此嚮導可基於現有假期建立法定假日。\n<br/>"
+"                        僅考慮每個國家/地區的最後一個建立模板 \n"
+"（如果您選擇同一國家的2012和2015年，那麼僅考慮2015年的模板）。"
+
 
 #. module: hr_public_holidays
 #: model:ir.model.fields,field_description:hr_public_holidays.field_public_holidays_next_year_wizard_year
